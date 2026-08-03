@@ -2,6 +2,13 @@ class Animal{
     void sound(){
         System.out.println("Animal Sound");
     }
+    public static void main(String[] args){
+        Animal a = new Animal();
+        Dog d = new Dog();
+        d.sound();
+        a.sound();
+    }
+    
 }
 class Dog extends Animal{
 @Override
@@ -9,8 +16,5 @@ class Dog extends Animal{
         System.out.println("Dog Sound");
     }  
 
-    public static void main(String[] args){
-        Dog d = new Dog();
-        d.sound();
-    }
+    
 }
