@@ -1,4 +1,6 @@
 class Employee{
+    String name;
+    int salary;
     Employee(String name, int salary){
         System.out.println("employee name: " + name);
         System.out.println("employee salary: " + salary);
